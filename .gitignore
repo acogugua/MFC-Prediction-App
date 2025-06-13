@@ -1,1 +1,9 @@
+# Ignore all .csv files
+*.csv
+
+# ...except for these:
+!X_test_sample.csv
+!Y_test_sample.csv
+!BKLMMFC.csv
+
  
