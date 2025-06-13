@@ -10,7 +10,8 @@ from sklearn.preprocessing import label_binarize
 from FastAPI_Predict_mfc_height import X_test, Y_test
 
 #Load model
-model= joblib.load(r"C:\Users\Clem\PycharmProjects\PythonProject\random_forest_model.pkl")
+#model= joblib.load(r"C:\Users\Clem\PycharmProjects\PythonProject\random_forest_model.pkl")
+model = joblib.load("random_forest_model.pkl")
 
 
 st.title("ML Prediction App of Critical MFC Heights")
@@ -18,8 +19,10 @@ st.title("ML Prediction App of Critical MFC Heights")
 
 # Load test dataset
 
-X_test = pd.read_csv(r"C:\Users\Clem\PycharmProjects\PythonProject\X_test_sample.csv")
-Y_test = pd.read_csv(r"C:\Users\Clem\PycharmProjects\PythonProject\Y_test_sample.csv")
+#X_test = pd.read_csv(r"C:\Users\Clem\PycharmProjects\PythonProject\X_test_sample.csv")
+#Y_test = pd.read_csv(r"C:\Users\Clem\PycharmProjects\PythonProject\Y_test_sample.csv")
+X_test = pd.read_csv("X_test_sample.csv")
+Y_test_test = pd.read_csv("Y_test_sample.csv")
 
 # Convert labels to binary format
 

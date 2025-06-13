@@ -16,7 +16,8 @@ from sklearn.preprocessing import StandardScaler, RobustScaler
 
 
 # Load dataset
-data1= pd.read_csv(r"C:\Users\Clem\PycharmProjects\PythonProject\BKLMMFC.csv")
+#data1= pd.read_csv(r"C:\Users\Clem\PycharmProjects\PythonProject\BKLMMFC.csv")
+data1 = pd.read_csv("BKLMMFC.csv")
 # Process data
 
 X = data1.drop(['Label'], axis = 1)
