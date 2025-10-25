@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, auc
 from sklearn.preprocessing import label_binarize
 
-from FastAPI_Predict_mfc_height import X_test, Y_test
+#from FastAPI_Predict_mfc_height import X_test, Y_test
 
 #Load model
 #model= joblib.load(r"C:\Users\Clem\PycharmProjects\PythonProject\random_forest_model.pkl")
