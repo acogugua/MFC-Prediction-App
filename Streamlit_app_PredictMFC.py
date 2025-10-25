@@ -22,7 +22,7 @@ st.title("ML Prediction App of Critical MFC Heights")
 #X_test = pd.read_csv(r"C:\Users\Clem\PycharmProjects\PythonProject\X_test_sample.csv")
 #Y_test = pd.read_csv(r"C:\Users\Clem\PycharmProjects\PythonProject\Y_test_sample.csv")
 X_test = pd.read_csv("X_test_sample.csv")
-Y_test_test = pd.read_csv("Y_test_sample.csv")
+Y_test = pd.read_csv("Y_test_sample.csv")
 
 # Convert labels to binary format
 
